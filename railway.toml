@@ -1,0 +1,13 @@
+[build]
+dockerfilePath = "Dockerfile"
+
+[deploy]
+healthcheckPath = "/api/health"
+healthcheckTimeout = 30
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 5
+
+# Railway injects PORT automatically — Dockerfile sets PORT=3000
+# Volume mounts must be configured via Railway dashboard or CLI:
+#   /app/data    → persistent volume for SQLite DB, secrets, logs, backups
+#   /app/uploads → persistent volume for user-uploaded files (photos, covers, avatars)
