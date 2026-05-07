@@ -3,12 +3,12 @@ entries:
   trek:
   - apiVersion: v2
     appVersion: 3.0.10
-    created: "2026-04-26T22:22:47.282397115Z"
+    created: "2026-05-07T13:48:22.90631034Z"
     description: Minimal Helm chart for TREK app
-    digest: db37f8e0e97bc60034c07b3c1dd4183aa70c24977faed6d7f6ae663337249bb9
+    digest: 424d14a7164cf90ec0dcd516ca31833a86529adc3d4efc3f93f800949478a33c
     name: trek
     urls:
-    - https://mauriceboe.github.io/TREK/trek-3.0.10.tgz
+    - https://SkaFld-Ignite.github.io/Skafld.Atlas/trek-3.0.10.tgz
     version: 3.0.10
   - apiVersion: v2
     appVersion: 3.0.9
@@ -127,4 +127,4 @@ entries:
     urls:
     - https://mauriceboe.github.io/TREK/trek-2.9.12.tgz
     version: 2.9.12
-generated: "2026-04-26T22:22:47.281854637Z"
+generated: "2026-05-07T13:48:22.905761494Z"
